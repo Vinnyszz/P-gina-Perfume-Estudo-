@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.conteudo {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60%;
+    border-radius: 10px 10px;
+    position: fixed;
+    margin-inline: 30%;
+    margin-top: 20%;
+    height: min-content;
+    margin-bottom: 20%;
+}
+
+
+.conteudo__texto {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    height: auto;
+    width: auto;
+    margin: 5%;
+
+}
+
+.conteudo__texto__paragrafo {
+    font-size: 14px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.conteudo__texto__nomeperfume {
+    font-family:  'Fraunces', serif;
+
+}
+
+.conteudo__texto__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 10px;
+
+}
+
+
+.conteudo__texto__valores {
+    display: flex;
+    flex-direction: row;
+    color: hsl(158, 36%, 37%);
+    align-items: center;
+    gap: 25px;
+    font-family: 'Fraunces', serif;
+
+}
+
+.conteudo__texto__valor1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.conteudo__texto__valor2 {
+    color: gray;
+    text-decoration: line-through;
+    font-size: small;
+
+}
+
+.conteudo__texto__link {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 20px 0px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: url(carrinho.jpeg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 50px 15px
+
+}
+.conteudo__texto__bottom {
+    display: flex;
+
+}
+
+.imagem {
+    border-radius: 10px 0px 0px 10px;
+}
